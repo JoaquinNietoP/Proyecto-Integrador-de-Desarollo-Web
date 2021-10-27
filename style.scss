@@ -1,18 +1,141 @@
-*{
+* {
     margin: 1%;
     padding: 1%;
 }
 
 // resets
-h1{
-    display: none;
-}
-
 body {
     background-color: aquamarine;
 }
+h1 {
+    display: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
-header{
-    background-color: azure;
-    border-radius: 20px 20px 40px 20px;
+.logo {
+    width: 120px;
+    border: 0.9px solid rgba(0, 0, 0, 0.233);
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
+}
+
+i {
+    color: darkslateblue;
+    font-size: 2em;
+}
+
+// Header y burger
+
+h2 {
+    display: none;
+}
+
+.inlineList {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-content: space-between;
+    background-color: lightblue;
+    padding: 8%;
+    margin: -2%;
+
+    a {
+        text-decoration: none;
+        color: darkblue;
+        font-size: 1.7em;
+    }
+
+
+
+    .burger {
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+
+        .listoculta {
+            display: none;
+            position: absolute;
+            background-color: lightcyan;
+            border-radius: 20px;
+            min-width: 160px;
+            padding: 12px 16px;
+            z-index: 5;
+            top: 35px;
+            right: -30px;
+        }
+
+        .far {
+            display: none;
+        }
+
+        .listoculta li {
+            list-style: none;
+        }
+    }
+
+    .burger:hover {
+        .listoculta {
+            display: block;
+
+            a {
+                font-size: 1em;
+                text-decoration: none;
+            }
+        }
+
+        .fas {
+            display: none;
+        }
+
+        .far {
+            display: block;
+        }
+    }
+}
+
+//Cuerpo de la pagina
+
+main {
+    .principal{
+        .contacto{
+            display: flex;
+            text-align: center;
+            .contaclist{
+                display: block;
+            }
+        }
+    }
+    aside{
+        border-top: 1px double black;
+    }
+}
+
+// footer
+footer{
+    background: black;
+    text-align: center;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    a:hover{
+        color: whitesmoke;
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+        .inlineList {
+            display: inline;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
 }

@@ -3,16 +3,136 @@
   padding: 1%;
 }
 
-h1 {
-  display: none;
-}
-
 body {
   background-color: aquamarine;
 }
 
+h1 {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  width: 120px;
+  border: 0.9px solid rgba(0, 0, 0, 0.233);
+  border-radius: 60px;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
+}
+
+i {
+  color: darkslateblue;
+  font-size: 2em;
+}
+
+h2 {
+  display: none;
+}
+
+.inlineList {
+  display: none;
+}
+
 header {
-  background-color: azure;
-  border-radius: 20px 20px 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  background-color: lightblue;
+  padding: 8%;
+  margin: -2%;
+}
+
+header a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 1.7em;
+}
+
+header .burger {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+}
+
+header .burger .listoculta {
+  display: none;
+  position: absolute;
+  background-color: lightcyan;
+  border-radius: 20px;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 5;
+  top: 35px;
+  right: -30px;
+}
+
+header .burger .far {
+  display: none;
+}
+
+header .burger .listoculta li {
+  list-style: none;
+}
+
+header .burger:hover .listoculta {
+  display: block;
+}
+
+header .burger:hover .listoculta a {
+  font-size: 1em;
+  text-decoration: none;
+}
+
+header .burger:hover .fas {
+  display: none;
+}
+
+header .burger:hover .far {
+  display: block;
+}
+
+main .principal .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+main .principal .contacto .contaclist {
+  display: block;
+}
+
+main aside {
+  border-top: 1px double black;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a:hover {
+  color: whitesmoke;
+}
+
+@media (min-width: 1900px) {
+  body .inlineList {
+    display: inline;
+  }
+  body .inlineList a {
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

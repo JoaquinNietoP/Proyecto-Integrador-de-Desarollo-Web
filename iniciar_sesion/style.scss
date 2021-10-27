@@ -1,0 +1,53 @@
+//! INICIO DE SESION
+
+* {
+    margin: 1%;
+    padding: 1%;
+}
+
+// resets
+body {
+    background-color: aquamarine;
+}
+h1 {
+    display: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+    border: 0.9px solid rgba(0, 0, 0, 0.233);
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
+}
+
+i {
+    color: darkslateblue;
+    font-size: 2em;
+}
+//header
+
+header{
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+// Formulario
+
+main {
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 20px;
+    form{
+        text-align: center;
+        .iniciar{
+            text-align: center;
+        }
+        button {
+            text-align: center;
+        }
+    }
+}
