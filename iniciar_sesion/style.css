@@ -29,6 +29,21 @@ i {
   font-size: 2em;
 }
 
+footer {
+  background: black;
+  text-align: center;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a:hover {
+  color: whitesmoke;
+}
+
 header {
   background-color: whitesmoke;
   -webkit-box-pack: center;
