@@ -1,0 +1,40 @@
+//! CARTA
+* {
+    margin: 1%;
+    padding: 1%;
+}
+
+// resets
+body {
+    background-color: aquamarine;
+}
+h1 {
+    display: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+    border: 0.9px solid rgba(0, 0, 0, 0.233);
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
+}
+
+i {
+    color: darkslateblue;
+    font-size: 2em;
+}
+footer{
+    background: black;
+    text-align: center;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    a:hover{
+        color: whitesmoke;
+    }
+}
