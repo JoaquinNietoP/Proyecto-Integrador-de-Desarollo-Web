@@ -16,6 +16,14 @@ a {
   cursor: pointer;
 }
 
+:root {
+  --darkblue: #201238;
+  --violet: #552e8a;
+  --lightpink: #fce8e7;
+  --pink: #f7b6ae;
+  --orange: #f66855;
+}
+
 .logo {
   width: 120px;
   border: 0.9px solid rgba(0, 0, 0, 0.233);

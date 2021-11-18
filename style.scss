@@ -7,7 +7,8 @@
 
 // resets
 body {
-    background-color: rgb(99, 215, 219);
+    background-color: var(--darkblue);
+    color: var(--lightpink);
 }
 h1 {
     display: none;
@@ -16,24 +17,30 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+:root {
+    --darkblue: #201238;
+    --violet: #552e8a;
+    --lightpink: #fce8e7;
+    --pink: #f7b6ae;
+    --orange: #f66855;
+    --lightviolet: rgb(144, 63, 199);
+}
 
 .logo {
-    width: 120px;
+    width: 100px;
     border: 0.9px solid rgba(0, 0, 0, 0.233);
     border-radius: 60px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
 }
 
 i {
-    color: darkslateblue;
-    font-size: 2em;
+    color: black;
+    font-size: 2.5em;
 }
 
 // Header y burger
 
-h2 {
-    display: none;
-}
+
 
 .inlineList {
     display: none;
@@ -42,13 +49,20 @@ h2 {
 header {
     display: flex;
     align-content: space-between;
-    background-color: lightblue;
-    padding: 8%;
+    background-color: rgb(144, 63, 199);
+    padding: 2%;
     margin: -2%;
-
+    .portada {
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        h2{
+            font-size: 1em;
+        }
+    }
     a {
         text-decoration: none;
-        color: darkblue;
+        color: var(--lightpink);
         font-size: 1.7em;
     }
 
@@ -62,7 +76,7 @@ header {
         .listoculta {
             display: none;
             position: absolute;
-            background-color: lightcyan;
+            background-color: var(--orange);
             border-radius: 20px;
             min-width: 160px;
             padding: 12px 16px;
@@ -112,8 +126,18 @@ main {
             }
         }
     }
-    aside{
-        border-top: 1px double black;
+   
+}
+
+aside{
+    border-top: 1px double black;
+    background-color: rgba(160, 160, 179, 0.493);
+    text-align: center;
+    .auspicia {
+        img {
+            width: 300px;
+            height: 150px;
+        }
     }
 }
 

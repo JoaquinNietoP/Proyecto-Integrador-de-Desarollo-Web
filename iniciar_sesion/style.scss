@@ -16,6 +16,13 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+:root {
+    --darkblue: #201238;
+    --violet: #552e8a;
+    --lightpink: #fce8e7;
+    --pink: #f7b6ae;
+    --orange: #f66855;
+}
 
 .logo {
     width: 120px;
@@ -49,16 +56,21 @@ header{
 // Formulario
 
 main {
-    background-color: whitesmoke;
+    background-image: url(../assets/entradanochelluvia.jpg);
     border: 1px solid rgba(0, 0, 0, 0.575);
     border-radius: 20px;
-    form{
+    form {
+        background-image: url(../assets/tragogotass.jpg);
+        width: 475px;
+        height: 500px;
         text-align: center;
-        .iniciar{
+        align-items: center;
+        label{
             text-align: center;
+            display: block;
         }
-        button {
-            text-align: center;
+        button{
+            justify-content: center;
         }
     }
 }

@@ -16,6 +16,14 @@ a {
   cursor: pointer;
 }
 
+:root {
+  --darkblue: #201238;
+  --violet: #552e8a;
+  --lightpink: #fce8e7;
+  --pink: #f7b6ae;
+  --orange: #f66855;
+}
+
 .logo {
   width: 120px;
   border: 0.9px solid rgba(0, 0, 0, 0.233);
@@ -52,20 +60,29 @@ header {
 }
 
 main {
-  background-color: whitesmoke;
+  background-image: url(../assets/entradanochelluvia.jpg);
   border: 1px solid rgba(0, 0, 0, 0.575);
   border-radius: 20px;
 }
 
 main form {
+  background-image: url(../assets/tragogotass.jpg);
+  width: 475px;
+  height: 500px;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-main form .iniciar {
+main form label {
   text-align: center;
+  display: block;
 }
 
 main form button {
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
