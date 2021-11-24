@@ -71,15 +71,12 @@ header {
 }
 
 main {
-  background-image: url(../assets/entradanochelluvia.jpg);
+  background-color: var(--violet);
   border: 1px solid rgba(0, 0, 0, 0.575);
   border-radius: 20px;
 }
 
 main form {
-  background-image: url(../assets/tragogotass.jpg);
-  width: 475px;
-  height: 500px;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
