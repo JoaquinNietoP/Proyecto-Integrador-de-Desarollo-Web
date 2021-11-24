@@ -4,11 +4,16 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: var(--darkblue);
+  color: var(--lightpink);
 }
 
 h1 {
   display: none;
+}
+
+h3 {
+  color: black;
 }
 
 a {
@@ -18,10 +23,16 @@ a {
 
 :root {
   --darkblue: #201238;
-  --violet: #552e8a;
+  --violet: #4f2a81;
   --lightpink: #fce8e7;
   --pink: #f7b6ae;
   --orange: #f66855;
+  --lightviolet: rgb(144, 63, 199);
+}
+
+i {
+  color: black;
+  font-size: 1.7em;
 }
 
 .logo {
