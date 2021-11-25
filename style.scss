@@ -61,6 +61,7 @@ header {
     }
 
     .navbar {
+        background-color: rgba(160, 160, 179, 0.493);
         .navbar-brand img {
             width: 80px;
             border: 0.9px solid rgba(0, 0, 0, 0.233);
@@ -86,6 +87,7 @@ main {
             }
             .contaclist {
                 display: block;
+            
             }
         }
     }
@@ -123,14 +125,14 @@ footer {
     }
 }
 
-@media (min-width: 1900px) {
-    body {
-        .inlineList {
-            display: inline;
-
-            a {
+@media (min-width: 720px) {
+    .contacto {
+        display: flex;
+        .contaclist{
+             a{
                 text-decoration: none;
             }
         }
     }
+        
 }

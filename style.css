@@ -51,6 +51,10 @@ header .portada .neon {
   height: 300px;
 }
 
+header .navbar {
+  background-color: rgba(160, 160, 179, 0.493);
+}
+
 header .navbar .navbar-brand img {
   width: 80px;
   border: 0.9px solid rgba(0, 0, 0, 0.233);
@@ -108,11 +112,13 @@ footer a:hover {
   color: whitesmoke;
 }
 
-@media (min-width: 1900px) {
-  body .inlineList {
-    display: inline;
+@media (min-width: 720px) {
+  .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  body .inlineList a {
+  .contacto .contaclist a {
     text-decoration: none;
   }
 }
