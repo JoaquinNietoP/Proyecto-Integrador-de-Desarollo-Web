@@ -63,6 +63,10 @@ header .navbar .navbar-brand img {
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.438);
 }
 
+header .navbar .btn {
+  color: black;
+}
+
 main {
   margin-top: 10%;
   background-color: var(--violet);
